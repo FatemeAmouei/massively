@@ -1,0 +1,41 @@
+#header {
+  width: 100%;
+  min-height: 80vh;
+}
+
+.header-title {
+  margin-top: 20rem;
+  padding-top: 225rem;
+  font-size: 6rem;
+  font-family: Merriweather, Georgia, serif;
+  line-height: 7rem;
+}
+
+.header-text {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #fff;
+  font-family: Montserrat;
+  font-style: italic;
+  text-align: center;
+}
+
+.header-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.scroll-button {
+  cursor: pointer;
+  z-index: 10;
+}
+
+.header-icon {
+  color: aliceblue !important;
+  font-size: 5rem;
+  margin-top: 2rem;
+  font-size: 5rem;
+  cursor: pointer !important;
+  z-index: 10;
+}

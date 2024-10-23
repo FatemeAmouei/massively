@@ -1,0 +1,29 @@
+.copyright {
+  max-width: 1480px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: transparent;
+  border-color: #fff;
+  padding: 2rem;
+  height: 30vh;
+}
+
+.copyright__ul {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  color: rgba(255, 255, 255, 0.25);
+  padding-top: 4rem;
+}
+
+.copyright__list {
+  padding-left: 2rem;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+
+.list {
+  border-right: 3px solid rgba(255, 255, 255, 0.25);
+  padding-right: 2rem;
+
+}

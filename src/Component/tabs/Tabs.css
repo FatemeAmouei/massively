@@ -1,0 +1,178 @@
+* {
+  direction: ltr;
+}
+
+.tabs {
+  max-width: 1480px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: transparent;
+  padding: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.tabs .nav-link {
+  background-color: transparent !important;
+  color: #fff !important;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.tabs .nav-link.active {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-color: transparent !important;
+  border: none !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none !important;
+  border-radius: 0;
+}
+
+.tabs .nav-link:hover {
+  opacity: 0.7 !important;
+  color: #ccc !important;
+
+}
+
+.tab {
+  max-width: 1480px;
+  height: 370vh;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+
+}
+
+.tab1-header,
+.tab2-header,
+.tab3-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab1-header__date,
+.tab2-header__date {
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 1.2rem;
+  position: relative;
+  padding-top: 9rem;
+  padding-bottom: 2rem;
+}
+
+.tab1-header__date::before,
+.tab2-header__date::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 80%;
+  width: calc(50% - 15rem);
+  margin-left: 9rem;
+  border-top: solid 3px #eeeeee;
+}
+
+.tab1-header__date::after,
+.tab2-header__date::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: calc(50% - 15rem);
+  margin-left: 6rem;
+  border-top: solid 3px #eeeeee;
+}
+
+.tab1-header__title,
+.tab2-header__title,
+.tab3-header__title {
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  line-height: 6rem;
+  margin-top: 3rem;
+}
+
+.tab3-header__subtitle {
+  font-size: 2.5rem;
+  text-align: left;
+  padding-left: 10rem;
+  font-weight: 900;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  line-height: 6rem;
+  margin-top: 3rem;
+}
+
+.tab1-header__text,
+.tab2-header__text {
+  font-size: 1.5rem;
+  font-family: "Merriweather", Georgia, serif;
+  font-style: italic;
+  margin-top: 2rem;
+  padding: 0 22rem;
+  line-height: 3rem;
+  color: #212931;
+  text-align: center;
+}
+
+.tab1-image {
+  display: block;
+}
+
+.tab1-image_img {
+  width: 80%;
+  margin: 5rem 0;
+}
+
+.tab1-btn {
+  text-decoration: none;
+  padding: 1.5rem 3rem;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  border: solid 3px #212931;
+  color: #212931;
+  margin: 0 40rem 10rem 40rem;
+}
+
+.tab1-btn:hover {
+  color: rgb(23, 180, 241);
+  border-color: rgb(23, 180, 241);
+}
+
+.pagination {
+  color: #000;
+  align-content: center;
+  margin: 5rem 32rem;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #eeeeee !important;
+  color: #000;
+  border-color: #eeeeee !important;
+}
+
+.tab2-text {
+  font-size: 1.4rem;
+  font-family: "Merriweather", Georgia, serif;
+  margin-top: 2rem;
+  padding: 0 15rem;
+  line-height: 3rem;
+  color: #212931;
+  text-align: justify;
+
+}
+
+.tab3-header__text {
+  font-size: 1.4rem;
+  font-family: "Merriweather", Georgia, serif;
+  margin-top: 2rem;
+  padding: 0 10rem;
+  line-height: 3rem;
+  color: #212931;
+  text-align: justify;
+
+}

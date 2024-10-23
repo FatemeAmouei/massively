@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "nf";
+    src: url(./Fonts/IRANSansMobile.ttf);
+}
+
+@font-face {
+    font-family: "mf";
+    src: url(./Fonts/IRANSansMobile_Medium.ttf);
+}
+
+@font-face {
+    font-family: "bf";
+    src: url(./Fonts/IRANSansMobile_Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+    direction: rtl;
+
+    --Primary-color: #c1272d;
+    --Secondary-color: #fbcf1d;
+    --bg-color: #eeeeee;
+    --Pale-text: #949494;
+    --dark-txt: #4d4d4d;
+    --black: #0d0d0d;
+}
+
+html {
+    font-size: 16px;
+    background-color: var(--bg-color);
+    font-family: nf;
+}

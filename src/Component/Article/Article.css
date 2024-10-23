@@ -1,0 +1,48 @@
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-card {
+  min-width: 50%;
+  width: 50%;
+  height: 90vh;
+}
+
+.article-card__title {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+
+.article-card__img {
+  width: 80%;
+  margin: 2rem 5rem;
+}
+
+
+.article-card__text {
+  text-align: justify;
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2.37;
+  margin: 0 0 2rem 0;
+  padding: 0 5rem;
+}
+
+.article-card__btn {
+  text-decoration: none;
+  padding: 1.5rem;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  border: solid 3px #212931;
+  color: #212931;
+  margin: 0 15rem 0 15rem;
+}
+
+.article-card__btn:hover {
+  color: rgb(23, 180, 241);
+  border-color: rgb(23, 180, 241);
+}
