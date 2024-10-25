@@ -4,7 +4,7 @@ import Footer from "./Component/Footer/Footer";
 import Header from "./Component/Header/Header";
 import Tabs from "./Component/tabs/Tabs";
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
       <Header />
@@ -13,6 +13,6 @@ function App() {
       <CopyRight />
     </>
   );
-}
+};
 
 export default App;
