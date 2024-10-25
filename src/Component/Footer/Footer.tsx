@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 import "./Footer.css";
-export default function Footer() {
+const Footer: React.FC = () => {
   return (
     <section>
       <footer className="footer">
@@ -31,7 +31,9 @@ export default function Footer() {
               />
             </Form.Group>
           </Form>
-          <a className="footer-btn">SEND MESSAGE</a>
+          <a href="#" className="footer-btn">
+            SEND MESSAGE
+          </a>
         </section>
         <section className="footer-right">
           <section className="footer-right__container">
@@ -91,4 +93,5 @@ export default function Footer() {
       </footer>
     </section>
   );
-}
+};
+export default Footer;

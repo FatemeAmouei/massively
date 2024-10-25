@@ -1,13 +1,14 @@
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
-import Button from "react-bootstrap/Button";
-
 import "./Header.css";
 import "../../../cssReset/reset.css";
 import "../../../cssReset/style-1.css";
 
-function Header() {
-  const scrolldownHandler = () => {
-    console.log("done");
+interface HeaderProps {}
+
+const Header: React.FC<HeaderProps> = () => {
+  const scrolldownHandler = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    alert(e);
+    console.log("Click detected");
     window.scrollTo({
       top: 1000,
       left: 0,
@@ -34,7 +35,11 @@ function Header() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
         officiis.
       </p>
-      <a href="#" onClick={scrolldownHandler} className="scroll-button">
+      <a
+        href="javascript:void(0)"
+        onClick={scrolldownHandler}
+        className="scroll-button"
+      >
         <FaRegArrowAltCircleDown
           className="header-icon"
           aria-label="Scroll down"
@@ -42,6 +47,6 @@ function Header() {
       </a>
     </header>
   );
-}
+};
 
 export default Header;

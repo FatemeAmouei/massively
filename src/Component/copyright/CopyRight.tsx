@@ -1,5 +1,5 @@
 import "./CopyRight.css";
-export default function CopyRight() {
+const CopyRight: React.FC = () => {
   return (
     <div className="copyright">
       <ul className="copyright__ul">
@@ -9,4 +9,5 @@ export default function CopyRight() {
       </ul>
     </div>
   );
-}
+};
+export default CopyRight;

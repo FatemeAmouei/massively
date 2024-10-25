@@ -40,11 +40,12 @@
 
 .tab {
   max-width: 1480px;
-  height: 370vh;
+  min-height: 120vh;
+  height: auto;
   margin: 0 auto;
   text-align: center;
   background-color: #fff;
-
+  padding-bottom: 3rem;
 }
 
 .tab1-header,
@@ -97,13 +98,31 @@
 }
 
 .tab3-header__subtitle {
-  font-size: 2.5rem;
   text-align: left;
   padding-left: 10rem;
-  font-weight: 900;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  line-height: 6rem;
+  line-height: 1rem;
   margin-top: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .tab1-header__text,
