@@ -1,1 +1,1 @@
-"preview 1.2.3 " are perview..
+The "preview image" folder is the demo project.
